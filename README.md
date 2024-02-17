@@ -28,3 +28,29 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+# UniMate
+
+UniMate is a web application designed to simplify the college research process for students, providing them with relevant and reliable information 
+about colleges, scholarship opportunities, and academic resources. With UniMate, students can explore colleges, compare options, and access 
+personalized recommendations to make informed decisions about their academic journey.
+
+## Getting Started
+
+To clone and run tis application, you'll need Git and Node.js (which comes wwith npm) installed on your computer:
+```js
+// Clone the repository to  your local machine
+git clone git@github.com:Bendinh/UniMate.git
+
+// Install project dependencies
+npm install -g npx
+
+/// Start development server
+npm start
+```
+
+## Usage
+
+## Features
+
+## License
