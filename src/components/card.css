@@ -1,0 +1,94 @@
+.container{
+    max-width: 90%;
+    width: 100%;
+    position: relative;
+    text-align: left;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    border: solid;
+    max-width: 22%;
+    background-color: white;
+    border-radius:  15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 1.5%;
+    margin-left: 1.5%
+}
+
+
+.caption{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.gradyear{
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 10%;
+}
+
+.attributeSchool::before{
+    content: url("./src/assets/edu.svg");
+    vertical-align: middle;
+    position: absolute;
+    background-position: center;
+    left: 2%;
+}
+
+.attributeSchool{
+    margin-bottom: 5%;
+    margin-left: 6%;
+}
+
+.attributeMajor::before{
+    content: url("./src/assets/major.svg");
+    vertical-align: middle;
+    position: absolute;
+    background-position: center;
+    left: 2%;
+}
+
+.attributeMajor{
+    margin-bottom: 5%;
+    margin-left: 6%;
+}
+
+.attributeTopic::before{
+    content: url("./src/assets/topic.svg");
+    vertical-align: middle;
+    position: absolute;
+    background-position: center;
+    left: 2%;
+}
+
+.attributeTopic{
+    margin-bottom: 5%;
+    margin-left: 6%;
+}
+
+.button-holder{
+    float: right;
+}
+
+.button{
+    text-align: center;
+    border: solid;
+    padding: 3px 30px;
+    border-radius: 20px;
+    background-color: #00B1D2;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: black;
+}

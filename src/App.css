@@ -32,49 +32,4 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
-
-.card-container {
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 10px;
-}
-
-.profile-card {
-  text-align: center;
-}
-
-.user-profile img {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.attributes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.attribute {
-  background-color: #f0f0f0;
-  padding: 8px 16px;
-  border-radius: 20px;
-  margin: 5px;
-}
