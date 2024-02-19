@@ -7,6 +7,7 @@
     right: 0;
     margin-right: auto;
     margin-left: auto;
+    color: black;
 }
 
 .card{
@@ -36,43 +37,20 @@
     margin-bottom: 10%;
 }
 
-.attributeSchool::before{
-    content: url("./src/assets/edu.svg");
+.attribute .attribute-icon{
+    width: 18px;
+    height: 18px;
+    background-size: cover;
     vertical-align: middle;
     position: absolute;
     background-position: center;
-    left: 2%;
+    background-repeat: no-repeat;
+    left: 5%;
 }
 
-.attributeSchool{
-    margin-bottom: 5%;
-    margin-left: 6%;
-}
-
-.attributeMajor::before{
-    content: url("./src/assets/major.svg");
-    vertical-align: middle;
-    position: absolute;
-    background-position: center;
-    left: 2%;
-}
-
-.attributeMajor{
-    margin-bottom: 5%;
-    margin-left: 6%;
-}
-
-.attributeTopic::before{
-    content: url("./src/assets/topic.svg");
-    vertical-align: middle;
-    position: absolute;
-    background-position: center;
-    left: 2%;
-}
-
-.attributeTopic{
-    margin-bottom: 5%;
-    margin-left: 6%;
+.attribute{
+    margin-bottom: 10%;
+    margin-left: 12%;
 }
 
 .button-holder{

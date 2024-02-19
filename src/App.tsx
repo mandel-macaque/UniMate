@@ -1,6 +1,6 @@
 import './App.css'
 import Card from './components/card'
-import './components/card.css'
+import './backend/firebase'
 
 function App() {
   return (
