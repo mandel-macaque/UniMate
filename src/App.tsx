@@ -11,11 +11,12 @@ function App() {
   return (
     <>
       <div className = "w-screen h-screen bg-gradient-to-b from-cyan-500 to-blue-900">
+        <div className = "w-1/2">
+          <Card userProfile={userProfile} attributes={attributes} />
+          <button type="button" className="bg-white">Click Me!</button>
+        </div>
       </div>
-      <div>
-        <Card userProfile={userProfile} attributes={attributes} />
-        <button type="button">Click Me!</button>
-      </div>
+      
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
