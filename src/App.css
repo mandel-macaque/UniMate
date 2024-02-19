@@ -4,12 +4,27 @@
   text-align: center;
 }
 
+.App {
+  width: 100vw; /* Equivalent to w-screen */
+  height: 100vh; /* Equivalent to h-screen */
+  background: linear-gradient(to bottom, #00bcd4, #0c7bb3);
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
+#intro-container {
+  text-align: left;
+  color: white;
+  font-size: 46px;
+  font-weight: normal;
+  font-family: 'Georgia', serif;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }

@@ -10,7 +10,8 @@ function App() {
 
   return (
     <>
-      <div className = "w-screen h-screen bg-gradient-to-b from-cyan-500 to-blue-900">
+      <div className="App">
+        <h1 id = "intro-container">Meet with your mentors</h1>
         <div className = "w-1/2">
           <Card userProfile={userProfile} attributes={attributes} />
         </div>
