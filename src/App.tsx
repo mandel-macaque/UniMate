@@ -2,7 +2,8 @@ import { useState,useEffect } from 'react'
 import './App.css'
 
 function App() {
-  const mentors = list_mentors()
+
+  
 
   return (
     <>
