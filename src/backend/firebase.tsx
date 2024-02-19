@@ -26,3 +26,4 @@ export const list_mentors = async ()=> {
     const data = mentorsRef.docs.map(doc => ({id: doc.id, ... doc.data()}))
     return data
 }
+
